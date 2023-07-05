@@ -2,7 +2,7 @@
 
 Node.js script to generate random username and password pairs. Suitable for example for radperf and similar RADIUS server testing. It is highly customizable and uses command line arguments to fine tune the output.
 
-## Options:
+## Options
 
 - `-c`: The count of rows to be generated (default is 10).
 - `-ul`: The length of usernames to be generated (default is 12).
@@ -11,7 +11,7 @@ Node.js script to generate random username and password pairs. Suitable for exam
 - `-pd`: A flag to enable password duplication. If this flag is set, all generated passwords will be the same. If followed by a non-option argument (not starting with `-`), this argument will be used as the common password.
 - `-e`: A flag to enable extended character set for passwords. If this flag is set, all printable ASCII characters will be used for password generation.
 
-## Usage:
+## Usage
 
 To run this script, use the command: 
 
@@ -21,7 +21,7 @@ node genAccountsCSV.js [options] > accounts.csv
 
 Replace `[options]` with your desired options and use `> accounts.csv` if you need to write the output to a file.
 
-## Examples:
+## Examples
 
 Generate 15 rows of random usernames and passwords with username length 10 and password length 8:
 
