@@ -105,17 +105,17 @@ if (argv.length === 0) {
   console.log("Examples:");
   console.log("\tnode genAccountsCSV.js -c 15 -ul 10 -pl 25");
   console.log(
-    "\t\tGenerate 15 rows of random usernames and passwords with username length 10 and password length 25:"
+    "\t\tGenerate 15 rows of random usernames and passwords with username length 10 and password length 25."
   );
   console.log("");
   console.log("\tnode genAccountsCSV.js -up 'user' -pd 'pass123'");
   console.log(
-    "\t\tGenerate 10 rows (default count) of random usernames with 'user' prefix and the same password 'password123':"
+    "\t\tGenerate 10 rows (default count) of random usernames with 'user' prefix and the same password 'password123'."
   );
   console.log("");
   console.log("\tnode genAccountsCSV.js -c 20 -e");
   console.log(
-    "\t\tGenerate 20 rows of random usernames and passwords using the extended character set excluding comma, semicolon, and space:"
+    "\t\tGenerate 20 rows of random usernames and passwords using the extended character set excluding comma, semicolon, and space."
   );
 } else {
   // Generate and print rows of username and password pairs
